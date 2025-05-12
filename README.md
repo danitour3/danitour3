@@ -1,16 +1,44 @@
-## Hi there 👋
 
-<!--
-**danitour3/danitour3** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```python
+readme_content = """
+# 👋 Olá, eu sou o João Gabriel!
 
-Here are some ideas to get you started:
+🎒 Aventureiro por natureza, desenvolvedor por paixão.  
+🚀 Curioso por tudo que envolve tecnologia, trilhas, adrenalina e inovação.  
+🌍 Gosto de explorar o mundo — seja em trilhas no mato ou no terminal do VS Code.  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🧭 Sobre mim
+
+- 💻 Desenvolvedor focado em aprender sempre.
+- 🏕️ Amante de trilhas, natureza e desafios ao ar livre.
+- 📍 Brasileiro, vivendo a vida com intensidade.
+
+## 🛠️ Tecnologias que curto usar
+
+- Front-end: **HTML**, **CSS**, **JavaScript**, **React**
+- Back-end: **Node.js**, **Python**
+- Outras: **Git**, **MongoDB**, **APIs**, **Mapas interativos**
+
+## 🔧 Projetos com minha pegada
+
+| Projeto | Descrição |
+|--------|-----------|
+| 🗺️ [TrilhaTech](#) | App para registrar trilhas feitas e explorar novos caminhos com mapas |
+| 🧰 [Gear Checklist](#) | Checklist inteligente para preparar a mochila antes de sair pra aventura |
+| ☀️ [Clima Radical](#) | App que verifica se o clima tá favorável pra sair pro mato ou não |
+
+> *"A maior trilha é aquela que você ainda vai percorrer."*
+
+## 📫 Vamos conversar?
+
+
+🚀 *Vem comigo nessa jornada entre códigos e trilhas!*
+"""
+
+with open("README.md", "w", encoding="utf-8") as file:
+    file.write(readme_content)
+
+print("README.md criado com sucesso!")
+```
+
+
